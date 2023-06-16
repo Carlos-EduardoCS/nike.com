@@ -17,6 +17,10 @@ a:hover{
     color: rgb(0, 255, 51);
 }
 
+.sub-header{
+    display: none;
+}
+
 
 .join{
     padding: 15px;
@@ -26,8 +30,6 @@ a:hover{
     width: 100px;
     background-color: black;
 }
-
-
 
 #logo{
     display: block;
@@ -150,6 +152,10 @@ a:hover{
 
 }
 
+.full-bg{
+    display: none;
+}
+
 .buscar{
     display: block;
     margin: 20px auto;
@@ -184,4 +190,8 @@ a:hover{
     padding: 17px;
     border-radius: 10px;
     background-color: #2f2e2e35;
+}
+
+.pc-nav{
+    display: none;
 }
