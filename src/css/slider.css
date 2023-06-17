@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.carousel{
+    display: flex;
+    max-width: 110vw;
+    overflow: hidden;
+}
+
+.carousel-h1{
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.carousel > i{
+    position: absolute;
+    height: 46px;
+    color: #fff;
+    width: 46px;
+    text-align: center;
+    line-height: 46px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel > i:first-child{
+    bottom: -25%;
+    left: 5%;
+
+}
+
+.carousel > i:last-child{
+    bottom: -25%;
+    left: 85%;
+
+}
+
+
+
+.carousel-itens :nth-child(1){
+    margin-left: 12%;
+}
+
+.carousel-imgs{
+    width: 250px;
+    margin-left: 35%;
+}
+
+.carousel > ul{
+    list-style-type: none;
+}
+
+ul > p{
+    margin-left: 15px;
+}
