@@ -111,36 +111,64 @@
         font-size: 22px;
     }
 
-    .carousel > i:first-child{
+    /* carossel */
+
+    slider{
+        display: flex;
+        margin-top: -200px;
+        min-height: 100vh;
+        padding: 0 10px;
+    }
+    
+    .wrapper{
+        max-width: 100vw;
+    }
+    
+    .wrapper i{
+        top: 110vh;
+        background-color: rgba(0, 0, 0, 0.838);
+        height: 44px;
+        width: 44px;
         position: absolute;
-        top: 200%;
-        left: -1%;
-
+        cursor: pointer;
+        font-size: 1.2rem;  
+        border-radius: 50%;
+        text-align: center;
+        line-height: 46px;
+        color: #Ffff;
     }
     
-    .carousel > i:last-child{
-        position: absolute;
-        top: 200%;
-        left: 90vw;
-    
-    }
-
-    .carousel-itens :nth-child(1){
-        margin-left: 12%;
-        margin-right: -15px;
+    /* direita */
+    .wrapper i:first-child{
+        left: -23px;
     }
     
-
     
-    .carousel > ul{
-        list-style-type: none;
-        margin-left:  2%;
+    /* esquerda */
+    .wrapper i:last-child{
+        margin-right: 10px;
+        right: -1px;
     }
     
-    ul > p{
-        margin-left: 15px;
+    
+    .wrapper .carousel{
+        font-size: 0;
+        cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
     }
-
+    
+    .carousel img{
+        width: 100px;
+    
+        object-fit: cover;
+        margin-left: 14px;
+        width: calc(100% / 3);
+    }
+    
+    .carousel img:first-child{
+        margin-left: 0px;
+    }
 
 }
 
