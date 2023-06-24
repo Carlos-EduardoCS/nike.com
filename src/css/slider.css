@@ -1,61 +1,77 @@
 @charset "UTF-8";
 
+
+.car-img{ width: 250px; margin-left: 15px;}
+
 .slider{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -250px;
-    min-height: 100vh;
-    padding: 0 10px;
+    margin-top: 70px;
+}
+
+.slider .wrapper{
+    scroll-behavior: smooth;
+}
+
+.wrapper .dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.wrapper .dragging img{
+    pointer-events: none;
+}
+
+
+
+.slider > h1{
+    margin-left: 20px ;
 }
 
 .wrapper{
-    max-width: 100vw;
+    display: block;
+    overflow: auto;
+    max-width: 95vw;
+    margin: 0 auto;
 }
 
-.wrapper i{
-    top: 110vh;
-    background-color: rgba(0, 0, 0, 0.838);
-    height: 44px;
-    width: 44px;
-    position: absolute;
-    cursor: pointer;
-    font-size: 1.2rem;  
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li > p{
+    margin-left: 15px;
+}
+
+.slider > i{
     border-radius: 50%;
-    text-align: center;
-    line-height: 46px;
-    color: #Ffff;
-}
-
-/* direita */
-.wrapper i:first-child{
-    left: -23px;
+    width: 35px;
+    height: 36px;
+    padding: 11px;
 }
 
 
-/* esquerda */
-.wrapper i:last-child{
-    margin-right: 10px;
-    right: -1px;
+#icon2-right{
+    position: absolute;
+    top: 125vh;
+    left: 87vw;
 }
 
+#icon1-left{
+    display: none;
+    position: absolute;
+    top: 125vh;
+    left: 2vw;
+}
 
-.wrapper .carousel{
-    font-size: 0;
+#icon1-left, #icon2-right:hover{
+    transition: 1s ease-in;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.208);
     cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
 }
 
-.carousel img{
-    width: 100px;
-
-    object-fit: cover;
-    margin-left: 14px;
-    width: calc(100% / 3);
+img:hover{
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    transform: scale(1.052);
+    object-fit: fill;
 }
-
-.carousel img:first-child{
-    margin-left: 0px;
-}
-

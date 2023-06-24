@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+/* desktop */
+@media screen and (min-width: 992px){
+    
+    .wrapper{
+        display: block;
+        overflow: hidden;
+        max-width: 94vw;
+        margin: 0 auto;
+    }
+
+    .slider > h1{
+        margin-left: 35px ;
+    }
+
+    .slider > i{
+        border-radius: 50%;
+        width: 35px;
+        height: 36px;
+        padding: 11px;
+    }
+
+    #icon2-right{
+        position: absolute;
+        top: 205%;
+        left: 95vw;
+    }
+
+    #icon1-left{
+        position: absolute;
+        top: 205%;
+        left: 1vw;
+    }
+}
