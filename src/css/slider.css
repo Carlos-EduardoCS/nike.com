@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@300&display=swap');
 
 
 .car-img{ width: 250px; margin-left: 15px;}
@@ -13,7 +14,6 @@
 
 .wrapper .dragging{
     cursor: grab;
-    scroll-behavior: auto;
 }
 
 .wrapper .dragging img{
@@ -69,9 +69,31 @@ li > p{
     cursor: pointer;
 }
 
-img:hover{
+.car-img:hover{
     cursor: pointer;
     transition: .2s ease-in-out;
     transform: scale(1.052);
     object-fit: fill;
+}
+
+li > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.valor{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #818181;
+    font-size: 18px;
+}
+
+.em-breve{
+    color: #818181;
+    font-size: 18px;
 }

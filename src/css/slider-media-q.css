@@ -1,18 +1,67 @@
 @charset "UTF-8";
 
 
+/* xr arrows */
+
+@media screen and (min-width: 414px){
+    #icon2-right{
+        position: absolute;
+        top: 107%;
+        left: 95vw;
+    }
+
+    #icon1-left{
+        position: absolute;
+        top: 107%;
+        left: 1vw;
+    }
+}
+
+/* s9 */
+@media screen and (min-width: 320px){
+    #icon2-right{
+        position: absolute;
+        top: 130%;
+        left: 95vw;
+    }
+
+    #icon1-left{
+        position: absolute;
+        top: 130%;
+        left: 1vw;
+    }
+}
+
+/* nest hub */
+@media screen and (min-width: 1279px){
+    #icon2-right{
+        position: absolute;
+        top: 80%;
+        left: 95vw;
+    }
+
+    #icon1-left{
+        position: absolute;
+        top: 130%;
+        left: 1vw;
+    }
+}
+
+
 /* desktop */
 @media screen and (min-width: 992px){
+    .car-img{ width: 300px; margin-left: 15px;}
     
     .wrapper{
         display: block;
         overflow: hidden;
-        max-width: 94vw;
+        max-width: 1250px;
         margin: 0 auto;
     }
 
+
     .slider > h1{
-        margin-left: 35px ;
+        margin-left: 59px ;
     }
 
     .slider > i{
