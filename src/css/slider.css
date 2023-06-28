@@ -23,14 +23,14 @@
 
 
 .slider > h1{
-    margin-left: 20px ;
+    margin-left: 65px ;
 }
 
 .wrapper{
     display: block;
     overflow: auto;
-    max-width: 95vw;
-    margin: 0 auto;
+    max-width: 80vw;
+    margin-left: 12vw;
 }
 
 ul{
@@ -53,7 +53,8 @@ li > p{
 #icon2-right{
     position: absolute;
     top: 125vh;
-    left: 87vw;
+    margin-left: -22px;
+    left: 10vw;
 }
 
 #icon1-left{

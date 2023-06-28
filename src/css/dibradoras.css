@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*  mobile */
+
+.in-dibradoras-pt1{
+    text-align: center;
+
+}
+
+.in-dibradoras-pt1 >h1{
+    display: block;
+    font-weight: bold;
+    margin: 50px auto 10px auto;
+    font-size: 20px;
+    width: 250px;
+}
+
+.in-dibradoras-pt1 > p{
+    display: block;
+    font-weight: normal;
+    margin: 20px auto;
+    font-size: 16px;
+    width: 350px;
+}
+
+.nike-cup{
+    display: block;
+    margin: 0 auto;
+    width: 95vw;
+
+}
