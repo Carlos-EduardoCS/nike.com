@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+.membros-nike{
+    margin-top: 100px;
+}
+
+.junte-se-a-nos-img{
+    display: block;
+    margin-left: -30px;
+    padding: 30px;
+    width: 90vw;
+}
+
+.in-container-mebros-nike{
+    text-align: center;
+    padding: 30px;
+    background-color: #F1EBDD;
+}
+
+.in-container-mebros-nike > h2{
+    font-weight: 100;
+    text-align: center;
+    padding: 30px;
+    background-color: #F1EBDD;
+}
+
+.container-membros-nike > h1{
+    font-size: 1.4rem;
+}
+
+.container-membros-nike{
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+}

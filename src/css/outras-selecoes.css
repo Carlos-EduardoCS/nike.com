@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.outras-selecoes-img-mobile-only{
+    display: block;
+    margin: 20px auto;
+    width: 90vw;
+}
+
+.outras-selecoes-img-desktop-only{
+    display: none;
+}
+
+.conatiner-outras-selecoes{
+    text-align: center;
+}
+
+.conatiner-outras-selecoes > h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.outras-selecoes-h1-slider{
+    text-align: start;
+}

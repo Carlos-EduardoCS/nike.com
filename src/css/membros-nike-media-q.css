@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    .membros-nike{
+        margin-top: 100px;
+    }
+
+
+    .junte-se-a-nos-img{
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        width: 40vw;
+    }
+
+    .container-membros-nike{
+        display: block;
+        margin: 0 auto;
+        width: 90vw;
+    }
+}

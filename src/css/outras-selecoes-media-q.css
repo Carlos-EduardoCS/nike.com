@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px) {
+    .conatiner-outras-selecoes > h2{
+    font-weight: 300;
+}
+}
+

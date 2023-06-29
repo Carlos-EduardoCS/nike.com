@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+/*  desktop */
+
+
+@media screen and (min-width: 992px) {
+
+    .conatiner-dibradoras{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .dibradoras-img{
+        width: 25vw;
+        display: block;
+    }
+
+
+    .tittle{
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .tittle > h1{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 2rem;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .tittle > h3{
+        color: rgb(0, 0, 0);
+        font-weight: 100;
+        text-align: center;
+        font-size: 1.2rem;
+        width: 550px;
+        margin: 20px auto 0px auto;
+    }
+
+}
+
