@@ -43,3 +43,15 @@
     margin-left: -380px;
     }
 }
+
+/* ipad pro */
+@media screen and (min-width: 1024px) and (max-width:1025px ){
+    .info-t-shirt{
+        text-align: start;
+        display: block;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 180px 0px 0px auto;
+        width: 25vw;
+    }
+}

@@ -83,3 +83,20 @@
         left: 1vw;
     }
 }
+
+/* ipad pro */
+@media screen and (min-width: 1024px) and (max-width:1025px ) {
+    #icon2-right{
+        position: absolute;
+        top: 80%;
+        left: 95vw;
+    }
+
+    #icon1-left{
+        position: absolute;
+        top: 80%;
+        left: 20px;
+    }
+}
+
+
